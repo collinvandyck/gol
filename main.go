@@ -21,7 +21,7 @@ const (
 )
 
 var (
-	pixelSize  = 2
+	pixelSize  = 4
 	img        = newBaseImage(width, height, pixelSize)
 	colorAlive = color.RGBA{R: 0, G: 204, B: 255}
 	colorDead  = color.Black
