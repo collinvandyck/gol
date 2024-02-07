@@ -16,14 +16,14 @@ type grid [][]bool
 const (
 	alive  = true
 	dead   = false
-	width  = 400
-	height = 400
+	width  = 200
+	height = 200
 )
 
 var (
-	pixelSize  = 2
+	pixelSize  = 4
 	img        = newBaseImage(width, height, pixelSize)
-	colorAlive = color.RGBA{R: 0, G: 204, B: 255}
+	colorAlive = color.RGBA{R: 255, G: 0, B: 0}
 	colorDead  = color.Black
 	tickDelay  = 10 * time.Millisecond
 
